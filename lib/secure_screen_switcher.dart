@@ -10,9 +10,9 @@ class SecureScreenSwitcher {
   ///
   /// on iOS this makes the screen black in the app switcher screen
   /// On Android this makes the screen black in the app switcher screen and blocks screenshots in addition
-  static Future<bool> secureApp() async {
+  static Future<bool?> secureApp() async {
     try {
-      bool success = await _channel.invokeMethod('secure_app');
+      bool? success = await _channel.invokeMethod('secure_app');
       return success;
     } catch (e) {
       print(

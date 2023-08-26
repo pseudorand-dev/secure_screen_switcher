@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:secure_screen_switcher/secure_screen_switcher.dart';
 
-bool secured = false;
+bool? secured = false;
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
