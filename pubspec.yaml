@@ -1,6 +1,6 @@
 name: secure_screen_switcher
 description: A flutter project to add simple security to flutter mobile apps so that screens are obscured when in the background (switcher) without having to mess with native code
-version: 0.0.1+1
+version: 0.1.0
 author: pseudorand development
 homepage: https://github.com/pseudorand-dev/secure_screen_switcher
 
